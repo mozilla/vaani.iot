@@ -1,0 +1,15 @@
+[submodule "openhab"]
+	path = openhab
+	url = https://github.com/mozilla/openhab.git
+[submodule "openhab-core"]
+	path = openhab-core
+	url = https://github.com/mozilla/openhab-core.git
+[submodule "openhab-distro"]
+	path = openhab-distro
+	url = https://github.com/mozilla/openhab-distro.git
+[submodule "openhab2-addons"]
+	path = openhab2-addons
+	url = https://github.com/mozilla/openhab2-addons.git
+[submodule "smarthome"]
+	path = smarthome
+	url = https://github.com/mozilla/smarthome.git
