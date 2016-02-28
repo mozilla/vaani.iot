@@ -1,0 +1,47 @@
+---
+layout: page
+title: Blog
+---
+			<section>
+				<h4>Vaani Kick-Off in Berlin</h4>
+				<div class="box alt">
+					<div class="row uniform 50%">
+						<div class="12u"><span class="image fit"><img src="images/kickoffberlin.jpg" alt="" /></span></div>
+					</div>
+				</div>
+				<p><span class="image left"><img src="images/pic06.jpg" alt="" /></span>Here is a brief update from the Vaani team meetup in Berlin last week around prototype-scoping and planning, following the gate 0 go-ahead.
+
+</p>
+                                <h5>Background</h5>
+                                <p>First, a quick background. Over the past few weeks, the team worked hard to study the offerings in this space; talked to experts in the industry and received feedback from Mozillians to refine the ideas further. We started with a few basic constraints we have set for ourselves: 
+                                <ul>
+                                    <li>This is a broad space and one that is maturing fast. However, since we need to work with limited resources (& time), we need to start small. We need to make good product/architectural decisions for the prototype in line with the technical maturity we can realistically achieve in the next few months.</li>
+                                    <li>We will use open source blocks (where available) after our careful assessments rather than starting from scratch e.g. speech engines.</li>
+                                    <li>Finally, our end goal & focus must be the end users. Since Voice interface is an ingredient (vs a final product by itself), we need to bridge the gap for a usable (value exhibitable) prototype. Thus, our approach is to create an “IoT enabler package” that is useful for developers, early adopters/makers and device makers. Something with which they can use voice to control IoT devices out of the box and showcase the future possibilities.</li>
+                                </ul></p>
+                                <h5>Highlights</h5>
+                                <p>In the Berlin meeting last week, we went deeper into the scope and planning. Here are the highlights:</p>
+                                <ul>
+                                    <li><b>Prototype:</b> First prototype target is to create a Vaani SDK that is based on Raspberry Pi2 and a sample smart home SDK (e.g. openHAB), so we can enable voice control in specific devices like SmartHome hubs, thermostats, music players. </li>
+                                    <li><b>Architecture:</b> The Vaani SDK will use Pocketsphinx and Kaldi for speech to text  (STT) analysis and MaryTTS for text to speech (TTS) synthesis. A purchased speech corpora will be used for training our STT model. A voice talent (to be contracted) will do recording sessions for training the TTS model. (Note: If you know a female voice talent or a good agency for voice talents, please contact us.)</li>
+                                    <li><b>UX:</b> Connected devices are going to bring new and exciting UX paradigms. First, we have started preparing the list of all possible voice commands we need for these devices. Our next steps are to explore, refine and create user flows. These commands are focused on the SmartHome hubs, thermostats and music players. Also, we started discussion of audio ambient indicators and the “personality” (or “soul”) of Vaani. We began exploration of a Mozilla designed user interface of the openHAB based prototype.</li>
+                                    <li><b>Resourcing:</b> We have an approval to use 6 Eng resources (and so far we have 3 identified). Gregor Wagner and Kelly Davis are identifying detailed needs to get remaining resources assigned.</li>
+                                    <li><b>openHAB & market validation:</b> We met with the openHAB CEO to validate our concepts as well as to learn about their architecture & plans. They are an open source initiative with over 120 IoT hardware protocol bindings enabled so far. (It is a very interesting initiative that we should look more closely into, but more on that later) Generally openHAB team feels that open source Voice option at scale like Vaani is essential. At our request, they are looking into ways of helping us validate this further with some device makers (potentially via the QIVICON Alliance). We will follow up with them for this, as well as work with them to finalize the integration details of the prototype.</li>
+
+                                    <li><b>User research:</b> We are looking for opportunities to get a high level user validation done with the User insights/research team. More on this in next weeks.</li>
+                                    <li><b>QA update:</b> Created initial test plan for Vaani, discussed future automation, discussed Continuous Integration, began discussing community involvement for QA and testing.</li>
+                                    <li><b>Community:</b> Vaani as a high level concept was introduced in the Community leadership summit in Singapore event in Jan 2016. Currently, we are working with George Roter to identify opportunities and timing for broader community participation. </li>
+                                    <li><b>Differentiation:</b> While we are focused on a specific prototype as a proof point for now, in the long term we looked at several differentiating opportunities for us to take Vaani much further than existing products in market like Amazon Alexa (Echo) offer today. E.g.</li>
+                                    <ul>
+                                        <li>Amazon is trying to lock down users with their own/partner services with Echo. (shopping with Amazon, taxi with Uber, pizza with Domino's, music from spotify etc. Amazon decides these partnerships for their silo.) We can break that model by offering users a choice of using any of the services they desire directly from the web. Users may decide to get shopping from Flipkart, taxi from Lyft, music from Spotify and pizza from Pizza-Hut etc. </li>
+                                        <li>Users could even get web based information directly into the Vaani answers. “Where is the cheapest X?” from online providers (or local ones in neighborhood). We can help connect users with everything that the open web can offer with such services without gate-keeping.</li>
+                                        <li>A few other ideas are around integrating speaker identification ("who is speaking") together with Firefox Account - to directly load and access user preferences. Based on users’ settings/preferences, we could offer in-home or remote personalized services from various providers.</li>
+                                        <li>Some ideas around “locating” the user inside the home and have context sensitive commands supported like “Turn the lights off here (/in this room)”</li>
+                                        <li>Another idea is to build the context within actions (e.g. While cooking recipes, answer context sensitive questions like “how many spoons of that?”). </li>
+                                        <li>(This discussion continues)</li>
+                                    </ul>
+                                </ul>
+                               <p>While we are focused in earnest in getting the prototype built now, we will build the stack of differentiation ideas in parallel. Please continue sending feedback and ideas. </p>
+			</section>
+			<section>
+				<hr />
