@@ -1,4 +1,4 @@
-# Project Vaani
+# Project Vaani (No Longer Under Active Development)
   
 **Vaani.IoT** is at an early stage of development. Thus, despite our deep desire for external contributions, we are not quite ready to receive them yet.
 
